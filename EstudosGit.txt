@@ -27,3 +27,15 @@ adiciona arquivos apra comitar!
 
 git commmit -m "mensagems do comentario"
 salva todas a s mudancas e publica com uma mensaggem
+
+git log (pode botar git log --decorate pra ver se foide  qual branch pra qual branch, se foi merge etc)
+Mostra o historico de versoes
+
+git log --author="nome do autor"
+mostra todos os commits de tal autor
+
+git shortlog
+mostra em ordem alfabetica Quais foram os autores, quantos commit fizeram  e quais commits foram
+
+git log --graph 
+mostra de forma grafica os commits que tiveram
