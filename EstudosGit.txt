@@ -39,3 +39,6 @@ mostra em ordem alfabetica Quais foram os autores, quantos commit fizeram  e qua
 
 git log --graph 
 mostra de forma grafica os commits que tiveram
+
+git show
+nao funciona
