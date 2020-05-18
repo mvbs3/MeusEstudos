@@ -1,0 +1,52 @@
+<meta charset="utf-8"> Indica que pode usar acento grafico e tal
+
+-FORMATACAO DE TEXTO
+<p> paragrafo
+<b> Bold(negrito)
+<i> Italico
+<u>sublinhado</u>
+<sub>Subescrito</sub>
+<sup>Sobrescrito</sup>
+<big>Texto com Fonte mairo que o padrao</big>
+<small>Fonte menor</small>
+<em>italico</em>
+<strong> negrito</strong>
+<style> p{color: red;}</style> transforma a cor de todos os paragrafos em vermelho(pode trocar o p por h1, por b, por qualquer coisa)
+<style> body{ backgroun-color: red;}</style> muda a cord do back groud, se botar so color, muda a cor de todos os atribrutoq  estao no corpo
+
+-LINHAS
+<br> quebra de linha
+<hr> cria linha horizontal
+
+-IMAGENS
+<img src="diretorio"> insere imagem de determinada fonte(source)
+<img src="diretorio" width="500"> edita altura da img e height a largura
+
+-LISTAS
+<ol>cria lista ordenada
+    <li>coloca elemento na lista</li>
+</ol>
+<ul>cria lista nao ordenada
+    <li>coloca elemento na lista</li>
+</ul>
+
+<!--comentario-->
+
+-TABELAS
+ table declara a -TABELAS
+ tr declara uma -LINHAS
+ th uma coluna de cabecalio
+ td uma coluna de informacao  
+<table>
+    <tr> <th>Nome</th>   <th>Idade</th> <th>altura</th> </tr>
+    <tr> <td>Marcelo</td> <td>20</td>   <td>1,91</td> </tr>
+    <tr> <td>Jessica</td> <td>25</td>   <td>1,70</td> </tr>  
+ </table>
+ 
+-LINKS
+<a href="pagina">nome do hyperlink</a> criar um hyperlink
+atributos:(utiliza junto de uma tag de escrita)
+style="font-family: 'fonte'" (ex: <p style="font-family: 'Times New Roman'">Ola mundo!</p>)
+
+Tags para titulos:
+<h1>,<h2>,<h3>,<h4>,<h5>. h1>h2>h3... 

@@ -1,0 +1,29 @@
+IMPORTANTE:
+SEGUNDA AREA DE TRABALHO FICA:"c:users/marce/Desktop"
+
+git config --global user.name "seu nome"
+para dar um nome ao usuario
+
+git config --global user.email "seu email"
+determinar oe mailq utilizara o git
+
+mkdir nomeDiretorio
+Cria pasta
+
+cd nomeDiretorio
+ir ate o nomeDiretorio
+
+git init
+cria repositorio git
+
+ls -la 
+observa a criacao do arquivo git
+
+git status
+diz como ta o repositorio no momento
+
+git add nome do arquivo (ou clica tab)
+adiciona arquivos apra comitar!
+
+git commmit -m "mensagems do comentario"
+salva todas a s mudancas e publica com uma mensaggem
