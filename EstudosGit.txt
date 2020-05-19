@@ -40,5 +40,27 @@ mostra em ordem alfabetica Quais foram os autores, quantos commit fizeram  e qua
 git log --graph 
 mostra de forma grafica os commits que tiveram
 
-git show
-nao funciona
+git show codigoDoCommit
+mostra as em que arquivos ouveram modificacoes e quais foram
+
+git diff
+mostra modificacoes em arquivos
+
+git diff --name-only
+mostra o nome dos arquivos modificados
+
+git checkout NomeDoArquivo
+ele volta o arquivo pra antes da modificacao (olhar no status se ouve modificaco, olha rtno diff quais foram as modificacoes e se quiser voltar a como tava antes, da git checkout)
+
+git reset HEAD NOMEDOARQUIVo
+volta um arquivo que ja foi adicionado(nao commitado) para apenas modificado(ele nao ta mais add, tem q add dnvo)
+
+git reset --soft/--mixed/--hard COMIT ANTERIOR QUE VC QUER APAGAR
+
+CONECTAR NO REPOSITORIO GITHUB
+PRIMEIRO VC VAI NO HELP DO SITE GIT HUB E -> CONECTAR VIA SSH
+
+DIRETORIO DAS CHAVES = 
+cd ~/.ssh
+cat id_rsa.pub
+PEGA A KEY, VAI NO GITHUB ->SETTINGS ->SSH AND GPG KEYS -> CADASTRA E BOTA NOME DO PC
