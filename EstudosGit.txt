@@ -64,3 +64,12 @@ DIRETORIO DAS CHAVES =
 cd ~/.ssh
 cat id_rsa.pub
 PEGA A KEY, VAI NO GITHUB ->SETTINGS ->SSH AND GPG KEYS -> CADASTRA E BOTA NOME DO PC
+
+
+Como copiar repositorios para sua maquina
+
+git clone git@github.com:mvbs3/MeusEstudos.git nomeQUeVcQuer
+gir clone permite pegar o endereco ssh ou https do seu repositorio para copia-lo para sua maquina
+
+botao FORK
+Permite vc fazer uma copia de um repositorio (geralmente publico) para vc fazer modificacoes (ex:encontrou um erro) e dps mandar um pull request pro amiguinho. caso ele aprove, seu codigo eh colocado no repositorio dele
