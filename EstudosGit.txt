@@ -97,3 +97,6 @@ mescla 2 branchs
 
 git rebase outraBranch
 coloca o ultimo commit dessa outra branch como ultimo do seu
+
+git config --global alias.NomeQueQUeroDar comandoQueSeraSubstituido
+cria um atalho pro comando ex: git config --global alias.s status -> git s
