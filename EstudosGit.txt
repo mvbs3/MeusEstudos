@@ -73,3 +73,12 @@ gir clone permite pegar o endereco ssh ou https do seu repositorio para copia-lo
 
 botao FORK
 Permite vc fazer uma copia de um repositorio (geralmente publico) para vc fazer modificacoes (ex:encontrou um erro) e dps mandar um pull request pro amiguinho. caso ele aprove, seu codigo eh colocado no repositorio dele
+
+git checkout -b NOME DA NOVA branch
+cria uma branch e da um nome pra ela
+
+git branch
+checa todas as branchs
+
+git checkout NOMEDaBranch
+entra nessa outra branch
