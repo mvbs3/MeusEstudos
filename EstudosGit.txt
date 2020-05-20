@@ -82,3 +82,6 @@ checa todas as branchs
 
 git checkout NOMEDaBranch
 entra nessa outra branch
+
+git branch -D NOMEDaBranch
+apaga uma branch
