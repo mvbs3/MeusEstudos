@@ -85,3 +85,11 @@ entra nessa outra branch
 
 git branch -D NOMEDaBranch
 apaga uma branch
+
+MERGE 
+faz o final de uma branch apontar pro final de outra branch, criando assim a uniao de duas ramificacoes
+
+Rebase
+faz com que final de uma branch vire o final de outra branch, tirando as ramificacoes
+
+git merge OutraBranchQueVcQuerMesclar
