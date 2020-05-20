@@ -93,3 +93,7 @@ Rebase
 faz com que final de uma branch vire o final de outra branch, tirando as ramificacoes
 
 git merge OutraBranchQueVcQuerMesclar
+mescla 2 branchs
+
+git rebase outraBranch
+coloca o ultimo commit dessa outra branch como ultimo do seu
