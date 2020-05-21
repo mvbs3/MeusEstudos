@@ -100,3 +100,14 @@ coloca o ultimo commit dessa outra branch como ultimo do seu
 
 git config --global alias.NomeQueQUeroDar comandoQueSeraSubstituido
 cria um atalho pro comando ex: git config --global alias.s status -> git s
+
+tags:
+git tag -a 1.0.0(versao) -m "mesagem sobre tal versao"
+git push origin master --tags
+
+
+git revert commit
+reverte uma mudanca
+
+git push origin:oqueQueroApagar do repositorio remoto
+apaga uma branch ou tag 
