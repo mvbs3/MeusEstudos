@@ -65,6 +65,8 @@ cd ~/.ssh
 cat id_rsa.pub
 PEGA A KEY, VAI NO GITHUB ->SETTINGS ->SSH AND GPG KEYS -> CADASTRA E BOTA NOME DO PC
 
+COMO LIGAR UM REPOSITORIO EXISTENTE A UM REPOSITORIO WEB
+git remote origin enderecoDoRepositorio
 
 Como copiar repositorios para sua maquina
 
