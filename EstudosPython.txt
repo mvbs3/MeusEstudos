@@ -40,7 +40,9 @@ for i in range(10,20): #essa funcao conta de 10 a 19
 
 for i in range(10,20,2): #essa funcao conta de 10 a 19 de 2 em 2
      print(i) 
-
+para percorrer uma lista
+for i in range(len(lista))
+    print i , " " , lista[i]
 
 OBJETOS
 objeto.atributo = variavel de um objeto
@@ -117,3 +119,59 @@ except:
 INPUTS
 raw_input()#recebe STRINGS
 input()#recebe numeros
+
+
+**********************************
+tópicos avançados em Python:
+
+enumerate
+
+for i, nome in enumerate(lista)
+    print(i,nome) #i eh o numero da lista nome o elemento da lista
+
+            list comprehension
+
+            equivale a:
+            x = [1,2,3,4,5]
+            y =[]
+            for i in x
+            y.append(i**2)
+            com list comprehension temos:
+            y=[i**2 for i in x]
+            condicional
+            y=[i for i in x if i%2==1]
+
+map
+pega uma funcao e aplica a todos os elementos de uma lista
+
+def funcao(x):
+    return x*2
+lista =[1,2,3,4,5]
+lista_dobrada = map(funcao,lista)
+lista_dobrada = list(lista_dobrada)
+
+
+            reduce
+            recebe uma lista e retorna um valor pra essa lista
+
+            from functools import reduce
+            def soma(x,y):
+                return x+y
+            lista =[1,2,3,4,5]
+            soma =  reduce(soma,lista)#percorre a lista e soma todos os elementos
+            
+            
+
+
+
+zip
+Junta duas listas para serem percorridas em um for
+FUNCIONA COM MAIS DE 2 LISTAS
+
+lista1 = [1,2,3,4,5]
+lista2 = ["abacate","bola","cachorro","dinehiro", "elefant"]
+for num, nome in zip(lista1,lista2)
+    print(num, nome)
+
+            filter
+            
