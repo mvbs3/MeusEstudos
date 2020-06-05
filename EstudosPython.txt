@@ -1,0 +1,119 @@
+Estudos Python
+Operadores:
+- +
+- -
+- *
+- **(exponencial)
+- /
+
+Listas:
+eh tipo um vetor
+ex: lista1 = [1,2,3,4,5]
+    lista2 = ["ola", "mundo", "tudo bom?"]
+metodos para lista:
+
+lista.append("batata") #coloca elemento ao final da lista
+if 7 in lista1: #TESTA SE ELEMENTO ESTA NA LISTA
+    print("7 esta na lista")
+
+del lista1[1:] APAGA ELEMENTOS DA LISTA, DO ELEMENTO 1 ATE O FINAL NO CASO
+
+METODOS DAS LISTAS:
+lista.sort() ORDENA LISTA(nao precisa retornar)
+lista.sort(reverse=true) ORDENA A LISTA DE FORMA DECRESCENTE
+lista.reverse() inverte a ordem da lista
+sorted(lista) RETORNA UMA LISTA ORDENADA
+
+
+para percorrer listas temos:
+for i in lista1:
+    print(i)
+o "i" vai pegar o valor de todos os elementos da lista ate a lsita acabar
+um por vez
+
+FUNCAO RANGE:
+for i in range(10): #essa funcao conta de 0 a 9
+    print(i) 
+
+for i in range(10,20): #essa funcao conta de 10 a 19
+    print(i) 
+
+for i in range(10,20,2): #essa funcao conta de 10 a 19 de 2 em 2
+     print(i) 
+
+
+OBJETOS
+objeto.atributo = variavel de um objeto
+objeto.metodo() = funcao de um objeto
+
+STRINGS:
+a= "ola"
+b= "mundo"
+concatenar = a+" "+b
+#logo: concatenar=ola mundo
+
+len(string) #Numero de caracteres de uma string
+print(a[0:3]) #printa de 0 ate 2
+******************
+NOTA MUITO IMPORTANTE: NENHUMA FUNCAO DESSA ALTERA A VARIAVEL
+ELA SO RETORNA O RESULTADO, SE QUISER IGUALAR A VARIAVEL, DEVE IGUALAR AO METODO
+
+***************
+string.lower() tranforma todas as letras em maiusculo
+string.upper() deixa a string toda em maiusculo
+string.strip() remove espacos e caracteres especiais no final da string(tipo \n)
+string.split() faz uma string se transfomar em lista (sem parametro eh por espaco) mas se colocar ("r") por exemplo, sempre q encontrar um R vai quebrar a string e colocar numa lista
+string.find() procura substring e retorna a posicao
+usar assim: print(string[string.find("Batata"):])
+ASSIM ELE VAI PRINTAR TUDO Q VEM A PARTIR DA PALABRA BATATA
+
+string.replace("a","b") procura na strinh a palabra A e troca pela palavra B
+
+
+ARQUIVOS:
+Leitura:
+arquivo = open("nomeArquivo","r")
+
+FUNCOES DE LEITURA:
+variavel = arquivo.readlines() pega cada linha e bota numa lista
+variavel = aqruivo.read() pega tudo e bota numa variavel
+
+Escrita:
+arquivo = open ("nomeArquivo", "w") (apaga arquivo se existir, e cria outro)
+NOTA, SE BOTAR "a" ELE SO ABRE O ARQUIVO E NAO APAGA SEU CONTEUDO
+arquivo.write("frase") coloca uma fras no arquivo
+arquivo.close()
+
+DICIONARIOS:
+
+dicionario = {"Nome":"associado", "chave":"valor"}
+print(dicionario['Nome']) # vai printar 'associado'
+
+para percorrer dicionario:
+for chaves in dicionario
+    print(chaves)#vai printar o NOME e chave
+    print(dicionario[chave]) #printa os associados e valor
+
+for chaves in dicionario.items():
+    print(i) #transforma saida numa tupla
+    #saida: ('Nome', 'associado')
+
+    dicionario.value() =  sai os valores e associados
+    dicionario.keys() = Nome e Chaves
+
+NUMEROS RANDOMICOS
+import random
+random.seed(umaSeed)
+numero = random.randint(0,10) # tira numero aleatorio entre 0 e 9
+lista=[6,45,9]
+numero = random.choice(lista) # escolhe um elemento aleatorio da lista
+
+TRATAMENTO DE EXCECAO:
+try:
+    alguma coisa q pode travar o programa
+except:
+    print("deu ruim")
+
+INPUTS
+raw_input()#recebe STRINGS
+input()#recebe numeros
