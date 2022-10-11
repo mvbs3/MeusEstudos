@@ -113,3 +113,5 @@ reverte uma mudanca
 
 git push origin:oqueQueroApagar do repositorio remoto
 apaga uma branch ou tag 
+
+alterado
